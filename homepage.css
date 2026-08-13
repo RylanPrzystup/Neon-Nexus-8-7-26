@@ -1,0 +1,53 @@
+/* vars for color palete */
+:root {
+  --cyberPunk-yellow: #FFD300;
+  --cyberpunk-black: #050505;
+  --cyberpunk-white: #E0FFFF;
+  --cyberpuk-purple: #7C4DFF;
+  --cyberpunk-darkGrey: #2c2c38;
+  --cyberpunk-cyan: #15A3C7;
+  --cyberpunk-blue: #0313A6;
+  --dark-yellow: rgb(212, 212, 13);
+  --dark-blue: #1d0152;
+  --cyberpunk-pink: #FF2079;
+}
+
+#introDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  background: radial-gradient(circle, #1d0152, #040f72);
+  
+}
+
+#landingDisplayFood{
+  min-width: 60dvw;
+  clip-path: polygon(0 0, 58% 0, 48% 100%, 0 100%);
+}
+
+#headerContainerLanding{
+  margin-right: 30rem;
+  margin-bottom: 9rem;
+} 
+
+#neon, #nexus{
+  color: var(--cyberpunk-cyan);
+  text-shadow: 8px 10px 4px #15a3c752;
+  font-size: 8rem;
+  letter-spacing: 0.1em;
+}
+
+#nexus{
+  margin-left: 2rem;
+}
+
+#missionStatement{
+  color: var(--cyberpunk-pink);
+  text-shadow: 6px 2px 4px #ff207993;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+

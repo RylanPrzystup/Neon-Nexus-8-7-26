@@ -1,0 +1,58 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+} 
+
+:root {
+  --cyberPunk-yellow: #FFD300;
+  --cyberpunk-black: #050505;
+  --cyberpunk-white: #E0FFFF;
+  --cyberpuk-purple: #7C4DFF;
+  --cyberpunk-darkGrey: #2c2c38;
+  --cyberpunk-cyan: #15A3C7;
+  --cyberpunk-blue: #0313A6;
+}
+
+
+
+
+#orderNow{
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 0.8rem;
+    border: none;
+}
+
+
+
+.container { 
+  display: flex; 
+  flex-direction: row; 
+  border: 2px solid rgb(255, 0, 0); 
+  width: 100%;
+  height: 100vh;
+} 
+
+.leftSide { 
+  border: 2px solid rgb(115, 255, 0); 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 70%;
+  gap: 20px; 
+} 
+
+.row {
+   display: flex; 
+   flex-direction: row; 
+}
+
+.rightSide { 
+  border: 2px solid rgb(0, 4, 255); 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 30%;
+  gap: 30px; 
+}

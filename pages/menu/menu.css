@@ -1,0 +1,75 @@
+/* Header Navigation */
+
+/* vars for color palete */
+:root {
+  --cyberPunk-yellow: #FFD300;
+  --cyberpunk-black: #050505;
+  --cyberpunk-white: #E0FFFF;
+  --cyberpuk-purple: #7C4DFF;
+  --cyberpunk-darkGrey: #2c2c38;
+  --cyberpunk-cyan: #15A3C7;
+  --cyberpunk-blue: #0313A6;
+}
+
+
+#breakfastEntree, #display2, #display3, #breakfastDrink, #breakfastDesserts, #LunchDrink, #LunchDesserts, #dinnerDrink, #dinnerDesserts{
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.product-card { 
+  background: var(--cyberpunk-darkGrey); 
+  padding: 20px; 
+  color: var(--cyberpunk-white);
+  max-width: 350px; 
+  width: 100%;
+} 
+        
+.product-icon {
+  font-size: 60px;
+  text-align: center;
+  padding: 30px 0;
+  background: #f9f9f9;
+  margin-bottom: 15px;
+ font-size: 20px;
+        }
+        
+        .product-badge {
+            display: inline-block;
+            background: #e74c3c;
+            color: #fff;
+            padding: 4px 8px;
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .product-category {
+            color: #999;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        .product-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .product-description {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .product-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+/* Footer */

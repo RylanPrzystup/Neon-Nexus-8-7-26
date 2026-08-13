@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Nexus | Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="../../shared/footer.css">
+    <link rel="stylesheet" href="../../shared/global.css">
+    <link rel="stylesheet" href="../../shared/navbar.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div id="leftSideNav">
+                <a href="../../index.html"><img src="../../assets/Logo/Neon nexus.png" alt="Resturant Logo" id="logo"></a>
+                <ul class="navItemsContainer">
+                    <li class="navItems"><a href="../../index.html">Home</a></li>
+                    <li class="navItems"><a href="../../pages/menu/index.html">Menu</a></li>
+                </ul>
+            </div>
+
+
+            <div id="rightSideNav">
+
+            <a href="../checkout/index.html"><img src="../../assets/icons/global/shoppingBag.png"></a>
+            <button id="orderNow"><a href="../menu/index.html">Order Now</a></button>    
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="leftSide">
+                <h2>My Cart</h2>
+                <p id="display"></p>
+            </div>
+
+            <div class="rightSide">
+                <div class="row">
+                    <h2>Items</h2>
+                    <h2>Total</h2>
+                </div>
+                <p id="display2"></p>
+            </div>
+        </div>
+    </main>
+    <button onclick="addFood()">Add Cheeseburger</button>
+<script src="checkout.js" defer></script>
+</body>
+</html>
