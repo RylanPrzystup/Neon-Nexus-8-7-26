@@ -11,6 +11,29 @@
   --cyberpunk-blue: #0313A6;
 }
 
+#mainContainer{
+  height: fit-content;
+  border: 1px solid black;
+}
+
+/* Header Section*/
+
+  #mainNavigation{
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+  }
+
+.mainButton {
+    margin: 10px;
+    width: 75px;
+    height: 35px;
+}
+
+
 
 #breakfastEntree, #display2, #display3, #breakfastDrink, #breakfastDesserts, #LunchDrink, #LunchDesserts, #dinnerDrink, #dinnerDesserts{
   padding: 40px 20px;
