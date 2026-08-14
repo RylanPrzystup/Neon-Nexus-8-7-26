@@ -17,22 +17,23 @@
         <nav>
 
             <div id="leftSideNav">
-                <a href="index.html"><img src="assets/Logo/Neon nexus.png" alt="Resturant Logo" id="logo"></a>
+                <a href="/"><img src="assets/Logo/Neon nexus.png" alt="Resturant Logo" id="logo"></a>
                 <ul class="navItemsContainer">
-                    <li class="navItems"><a href="index.html">Home</a></li>
-                    <li class="navItems"><a href="pages/menu/index.html">Menu</a></li>
+                    <li class="navItems"><a href="/">Home</a></li>
+                    <li class="navItems"><a href="pages/menu/">Menu</a></li>
                 </ul>
             </div>
 
 
             <div id="rightSideNav">
 
-                <a href="pages/checkout/index.html"><img src="assets/icons/global/shoppingBag.png" alt="View Shopping Cart" id="cart"></a>
+                <a href="pages/checkout/"><img src="assets/icons/global/shoppingBag.png" alt="View Shopping Cart" id="cart"></a>
 
-                <button id="orderNow"><a href="pages/menu/index.html">Order Now</a></button>
+                <button id="orderNow"><a href="pages/menu/">Order Now</a></button>
 
             </div>
 
+            <!-- !NEED A THEME SWITHCING BUTTON! -->
         </nav>
     </header>
 
@@ -129,6 +130,38 @@
 
 
     <footer>
+
+        <!-- Footer will be spilt in two, 90/10, one will cover faqs and Our mission statement (90) and the bottom one will detail copyright -->
+
+        <div>
+
+            <!-- div for about us / mission statement -->
+            <div>
+                <!-- display them in a column then populate them via javascript and an onclick event-->
+
+                <div id="aboutUs">
+                    <h2 id="aboutUsHeader">About Us</p>
+                    
+                    <button onclick="displayAboutMeBio()"></button>
+                </div>
+
+
+
+                <div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div id="copyrightFooter">
+
+        </div>
+
 
     </footer>
 
