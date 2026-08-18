@@ -1,298 +1,301 @@
 /* Create arrays for menu items, prices, and descriptions */
-    let breakfastItemList= [
+let breakfastItemList = [
+    {
+        menuType: "food",
+        itemTitle: "Quantam Pancakes",
+        itemPrice: 12.99,
+        itemDescription: "Fresh stack of pancakes.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "food",
-            itemTitle: "Quantam Pancakes",
-            itemPrice: "$12.99",
-            itemDescription: " Fresh stack of pancakes. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Pixel Waffles",
+        itemPrice: 12.99,
+        itemDescription: "Fresh stack of waffles.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {   
-            menuType: "food",
-            itemTitle: "Pixel Waffles ",
-            itemPrice: "$12.99",
-            itemDescription: " Fresh stack of waffles. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Cyber Omelet",
+        itemPrice: 12.99,
+        itemDescription: "Delicious fresh and seasoned omelet.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {   
-            menuType: "food",
-            itemTitle: "Cyber Omelet ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious fresh and seasonsed omelet. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Neon Breakfast Bowl",
+        itemPrice: 12.99,
+        itemDescription: "Nutritious bowl of yogurt, fruit, and oats.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "food",
-            itemTitle: " Neon Breakfast Bowl",
-            itemPrice: "$12.99",
-            itemDescription: " Nutritious bowl of yogurt, fruit, and oats. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Circuit French Toast",
+        itemPrice: 12.99,
+        itemDescription: "Delicious sticks of french toast.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "food",
-            itemTitle: " Circuit French Toast ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious sticks of french toast. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Blue Screen Lemonade",
+        itemPrice: 9.99,
+        itemDescription: "Delicious cup of lemonade.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Blue Screen Lemonade ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious cup of lemonade. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "RGB Energy Soda",
+        itemPrice: 9.99,
+        itemDescription: "Delicious cup of energy soda.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " RGB Energy Soda ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious cup of energy soda. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Liquid Lightning",
+        itemPrice: 9.99,
+        itemDescription: "Delicious carbonated citrus beverage.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Liquid Lightning ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious carbonated citrus beverage. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Nano Tea",
+        itemPrice: 9.99,
+        itemDescription: "Delicious cold tea beverage.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Nano Tea ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious cold tea beverage. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Quantam Shake",
+        itemPrice: 9.99,
+        itemDescription: "Delicious protein shake.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {   
-            menuType: "drink",
-            itemTitle: " Quantam Shake ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious protein shake. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "dessert",
+        itemTitle: "Data Cube Cheesecake",
+        itemPrice: 9.99,
+        itemDescription: "Delicious slice of cheesecake.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "dessert",
-            itemTitle: " Data Cube Cheesecake ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious slice of cheesecake. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "dessert",
+        itemTitle: "Pixel Ice Cream",
+        itemPrice: 9.99,
+        itemDescription: "Delicious cup of ice cream.",
+        imgPath: "assets/foodItems/ph.png"
+    }
+];
 
-        {
-            menuType: "dessert",
-            itemTitle: " Pixel Ice Cream ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious cup of ice cream. ",
-            imgPath: "assets/foodItems/ph.png",
-        }
-    ];
 
-    let lunchItemList = [
-        {
-            menuType: "food",
-            itemTitle: " Glitch Burger",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious cheeseburger. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+let lunchItemList = [
 
-        {   
-            menuType: "food",
-            itemTitle: " AI Chicken Sandwich ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious chicken sandwich. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Glitch Burger",
+        itemPrice: 12.99,
+        itemDescription: "Delicious cheeseburger.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {   
-            menuType: "food",
-            itemTitle: " Quantam Wrap ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious chicken wrap. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "AI Chicken Sandwich",
+        itemPrice: 12.99,
+        itemDescription: "Delicious chicken sandwich.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "food",
-            itemTitle: " Fusion Ramen Bowl ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious bowl of ramen. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Quantam Wrap",
+        itemPrice: 12.99,
+        itemDescription: "Delicious chicken wrap.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "food",
-            itemTitle: " Hologram Club Sandwich ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious club sandwich. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Fusion Ramen Bowl",
+        itemPrice: 12.99,
+        itemDescription: "Delicious bowl of ramen.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Solar Citrus Cooler ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious spicy and sweet citrus beverage. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Hologram Club Sandwich",
+        itemPrice: 12.99,
+        itemDescription: "Delicious club sandwich.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Green Planet Fizz ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious green apple flavored carbonated drink. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Solar Citrus Cooler",
+        itemPrice: 9.99,
+        itemDescription: "Delicious spicy and sweet citrus beverage.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Cosmic Garden Tea ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious subtly sweet tea. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Green Planet Fizz",
+        itemPrice: 9.99,
+        itemDescription: "Delicious green apple flavored carbonated drink.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Future Fruit Punch",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious cup of fruit punch. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Cosmic Garden Tea",
+        itemPrice: 9.99,
+        itemDescription: "Delicious subtly sweet tea.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {   
-            menuType: "drink",
-            itemTitle: " Wifi Water ",
-            itemPrice: "$9.99",
-            itemDescription: " Nice cold glass of water. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Future Fruit Punch",
+        itemPrice: 9.99,
+        itemDescription: "Delicious cup of fruit punch.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "dessert",
-            itemTitle: " Quantam Cookie Sundae ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious cookie sundae. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Wifi Water",
+        itemPrice: 9.99,
+        itemDescription: "Nice cold glass of water.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "dessert",
-            itemTitle: " Hologram Brownie ",
-            itemPrice: "$9.99",
-            itemDescription: " Deliciously warm and fudgy brownie. ",
-            imgPath: "assets/foodItems/ph.png",
-        }
-    ];
+    {
+        menuType: "dessert",
+        itemTitle: "Quantam Cookie Sundae",
+        itemPrice: 9.99,
+        itemDescription: "Delicious cookie sundae.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-    let dinnerItemList = [
-        {
-            menuType: "food",
-            itemTitle: " Plasma Steak ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious cut of steak. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "dessert",
+        itemTitle: "Hologram Brownie",
+        itemPrice: 9.99,
+        itemDescription: "Deliciously warm and fudgy brownie.",
+        imgPath: "assets/foodItems/ph.png"
+    }
+];
 
-        {   
-            menuType: "food",
-            itemTitle: " Binary Salmon ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious serving of salmon. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
 
-        {   
-            menuType: "food",
-            itemTitle: " Quantam Noodle Bowl ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious bowl of noodles. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+let dinnerItemList = [
 
-        {
-            menuType: "food",
-            itemTitle: " Neon Teriyaki Chicken ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious plate of teriyaki chicken. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Plasma Steak",
+        itemPrice: 12.99,
+        itemDescription: "Delicious cut of steak.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "food",
-            itemTitle: " Cyber Rice Plate ",
-            itemPrice: "$12.99",
-            itemDescription: " Delicious bowl of rice. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Binary Salmon",
+        itemPrice: 12.99,
+        itemDescription: "Delicious serving of salmon.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Midnight Martini ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious martini drink. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Quantam Noodle Bowl",
+        itemPrice: 12.99,
+        itemDescription: "Delicious bowl of noodles.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Orbitng Gin & Tonic ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious gin & tonic drink. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Neon Teriyaki Chicken",
+        itemPrice: 12.99,
+        itemDescription: "Delicious plate of teriyaki chicken.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Starlight Paloma ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious paloma drink. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "food",
+        itemTitle: "Cyber Rice Plate",
+        itemPrice: 12.99,
+        itemDescription: "Delicious bowl of rice.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "drink",
-            itemTitle: " Electric Espresso Martini ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious martini drink. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Midnight Martini",
+        itemPrice: 9.99,
+        itemDescription: "Delicious martini drink.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {   
-            menuType: "drink",
-            itemTitle: " Nova Margarita ",
-            itemPrice: "$9.99",
-            itemDescription: " Nice margarita drink. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Orbitng Gin & Tonic",
+        itemPrice: 9.99,
+        itemDescription: "Delicious gin & tonic drink.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "dessert",
-            itemTitle: " Galaxy Chocolate Cake ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious slice of chocolate cake. ",
-            imgPath: "assets/foodItems/ph.png",
-        },
+    {
+        menuType: "drink",
+        itemTitle: "Starlight Paloma",
+        itemPrice: 9.99,
+        itemDescription: "Delicious paloma drink.",
+        imgPath: "assets/foodItems/ph.png"
+    },
 
-        {
-            menuType: "dessert",
-            itemTitle: " Nova Lemon Tart ",
-            itemPrice: "$9.99",
-            itemDescription: " Delicious lemon tart. ",
-            imgPath: "assets/foodItems/ph.png",
-        }
-    ];
+    {
+        menuType: "drink",
+        itemTitle: "Electric Espresso Martini",
+        itemPrice: 9.99,
+        itemDescription: "Delicious martini drink.",
+        imgPath: "assets/foodItems/ph.png"
+    },
+
+    {
+        menuType: "drink",
+        itemTitle: "Nova Margarita",
+        itemPrice: 9.99,
+        itemDescription: "Nice margarita drink.",
+        imgPath: "assets/foodItems/ph.png"
+    },
+
+    {
+        menuType: "dessert",
+        itemTitle: "Galaxy Chocolate Cake",
+        itemPrice: 9.99,
+        itemDescription: "Delicious slice of chocolate cake.",
+        imgPath: "assets/foodItems/ph.png"
+    },
+
+    {
+        menuType: "dessert",
+        itemTitle: "Nova Lemon Tart",
+        itemPrice: 9.99,
+        itemDescription: "Delicious lemon tart.",
+        imgPath: "assets/foodItems/ph.png"
+    }
+];
 
     /* Breakfast Entree */
     
@@ -314,7 +317,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -346,7 +349,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -380,7 +383,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -410,7 +413,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -441,7 +444,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -471,7 +474,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -501,7 +504,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -532,7 +535,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -564,7 +567,7 @@
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button>Add To Card</button>
+                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -574,3 +577,18 @@
     }
 
     displayDinnerDesserts();
+    
+function addToCart(product) {
+    let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+
+    cart.push({
+        imgPath: product.imgPath,
+        itemTitle: product.itemTitle,
+        itemDescription: product.itemDescription,
+        itemPrice: product.itemPrice
+    });
+
+    localStorage.setItem("shoppingCart", JSON.stringify(cart));
+
+    console.log("Added to cart:", product);
+}

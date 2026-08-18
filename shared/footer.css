@@ -8,3 +8,8 @@
   --cyberpunk-cyan: #15A3C7;
   --cyberpunk-blue: #0313A6;
 }
+
+.hiddenByDefualt{
+  display: none;
+
+}

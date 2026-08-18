@@ -16,7 +16,6 @@
 
 
 
-
 #orderNow{
     font-size: 1.5rem;
     background-color: transparent;
@@ -41,6 +40,7 @@
   align-items: center; 
   width: 70%;
   gap: 20px; 
+  overflow: scroll;
 } 
 
 .row {
