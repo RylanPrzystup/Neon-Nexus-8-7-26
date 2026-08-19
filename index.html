@@ -17,22 +17,23 @@
         <nav>
 
             <div id="leftSideNav">
-                <a href="index.html"><img src="assets/Logo/Neon nexus.png" alt="Resturant Logo" id="logo"></a>
+                <a href="/"><img src="assets/Logo/Neon nexus.png" alt="Resturant Logo" id="logo"></a>
                 <ul class="navItemsContainer">
-                    <li class="navItems"><a href="index.html">Home</a></li>
-                    <li class="navItems"><a href="pages/menu/index.html">Menu</a></li>
+                    <li class="navItems"><a href="/">Home</a></li>
+                    <li class="navItems"><a href="pages/menu/">Menu</a></li>
                 </ul>
             </div>
 
 
             <div id="rightSideNav">
 
-                <a href="pages/checkout/index.html"><img src="assets/icons/global/shoppingBag.png" alt="View Shopping Cart" id="cart"></a>
+                <a href="pages/checkout/"><img src="assets/icons/global/shoppingBag.png" alt="View Shopping Cart" id="cart"></a>
 
-                <button id="orderNow"><a href="pages/menu/index.html">Order Now</a></button>
+                <button id="orderNow"><a href="pages/menu/">Order Now</a></button>
 
             </div>
 
+            <!-- !NEED A THEME SWITHCING BUTTON! -->
         </nav>
     </header>
 
@@ -129,6 +130,94 @@
 
 
     <footer>
+
+        <!-- Footer will be spilt in two, 90/10, one will cover faqs and Our mission statement (90) and the bottom one will detail copyright -->
+
+        <div>
+
+            <!-- div for about us / mission statement -->
+            <div>
+                <!-- display them in a column then populate them via javascript and an onclick event-->
+
+                <div id="aboutUs">
+                    <h2 id="aboutUsHeader">About Us</p>
+                    
+                    <button onclick="displayAboutMeBio()">▼</button>
+                </div>
+
+            </div>
+
+            <div id="FAQ">
+
+                <div class="questionFaqContainter">
+
+                    <h3 class="questionFaqHeader">Do we deliver?</h3>
+
+                    <button onclick="displayQuestionAnswer(1)">▼</button>
+
+                    <p id="question1" class="hiddenByDefualt">At this time, we only take orders for carry-out.</p>
+
+                </div>
+                
+                <div class="questionFaqContainter">
+
+                    <h3 class="questionFaqHeader">Do we have gluten free options?</h3>
+
+                    <button onclick="displayQuestionAnswer(2)">▼</button>
+
+                    <p id="question2" class="hiddenByDefualt">Yes, of course! Though options are limited, our plasma steak, pixel waffles and quantum pancakes all have gluten free options.</p>
+
+                </div>
+
+                <div class="questionFaqContainter">
+
+                    <h3 class="questionFaqHeader">What's the meaning of life?</h3>
+
+                    <button onclick="displayQuestionAnswer(3)">▼</button>
+
+                    <p id="question3" class="hiddenByDefualt">To buy from our Resturant!!!</p>
+
+                </div>
+
+                <div class="questionFaqContainter">
+
+                    <h3 class="questionFaqHeader">Is our food food diet freindly?</h3>
+
+                    <button onclick="displayQuestionAnswer(4)">▼</button>
+
+                    <p id="question4" class="hiddenByDefualt">Fortanetly our food is calorically dense, so not diet friendly, but it's delicious!</p>
+
+                </div>
+
+                <div class="questionFaqContainter">
+
+                    <h3 class="questionFaqHeader">Do we have vegitarian options?</h3>
+
+                    <button onclick="displayQuestionAnswer(5)">▼</button>
+
+                    <p id="question5" class="hiddenByDefualt">Yes! Our Pixel Waffles, Quantum Pancakes, Cyber Rice plate and our Quantum Wrap are all vegitarian friendly.</p>
+
+                </div>
+
+                <div class="questionFaqContainter">
+
+                    <h3 class="questionFaqHeader">What time does breakfast end?</h3>
+
+                    <button onclick="displayQuestionAnswer(6)">▼</button>
+
+                    <p id="question6" class="hiddenByDefualt">Never! We serve breakfast anytime, as long as we're open, any day of the week</p>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="copyrightFooter">
+
+        </div>
+
 
     </footer>
 
