@@ -5,7 +5,7 @@ let breakfastItemList = [
         itemTitle: "Quantam Pancakes",
         itemPrice: 12.99,
         itemDescription: "Fresh stack of pancakes.",
-        imgPath: "assets/foodItems/ph.png"
+        imgPath: "../assets/Food/Pancakes.png"
     },
 
     {
@@ -303,15 +303,16 @@ let dinnerItemList = [
 
         const grid = document.getElementById("breakfastEntree");
 
+        const food = breakfastItemList.filter(item => item.menuType === "food");
+
         if (!grid) return; 
 
         let html = ``;
-            for(let i=0; i < breakfastItemList.filter(entreBreakfast => entreBreakfast.menuType === "food").length; i++){
-            
-                const product = breakfastItemList[i];
+            for(let i=0; i < food.length; i++){
+                const product = food[i];
                 html += `
                     <div class="product-card">
-                        <div class="product-icon">${product.imgPath}</div>
+                        <img class="product-icon" src="${product.imgPath}" alt="food image">
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
