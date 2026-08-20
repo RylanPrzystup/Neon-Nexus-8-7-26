@@ -9,11 +9,14 @@
   --cyberpunk-darkGrey: #2c2c38;
   --cyberpunk-cyan: #15A3C7;
   --cyberpunk-blue: #0313A6;
+  --dark-yellow: rgb(212, 212, 13);
+  --dark-blue: #1d0152;
+  --cyberpunk-pink: #FF2079;
 }
 
 /* Header Section*/
   main {
-    background-color: #0313A6;
+    background-color: #1d0152;
   }
 
   #mainContainer{
@@ -48,7 +51,7 @@
     display: flex;
     padding: 10px;
     font-size: 40px;
-    color: #E0FFFF;
+    color: #FF2079;
 }
 
 .menuSubtitle{
@@ -57,7 +60,7 @@
     display: flex;
     padding: 10px;
     font-size: 30px;
-    color:#E0FFFF;
+    color:#FF2079;
 }
 
 .menuContainer{
@@ -71,7 +74,7 @@
     padding: 25px;
     margin: 10px 20px 10px 20px;
     gap: 25px;
-    background-color: #15A3C7;
+    background-color: #7C4DFF;
     border-radius: 10px;
 }
 
@@ -81,7 +84,7 @@
   color: var(--cyberpunk-white);
   max-width: 350px; 
   width: 250px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,9 +95,11 @@
   display: block;
   margin: 0 auto 15px;
   background: #f9f9f9;
+  border: 5px solid #FF2079;
   width: 10rem;
   height: 10rem;
-  object-fit: cover;   
+  object-fit: cover;
+  border-radius: 10px;
         }
         
         .product-badge {
