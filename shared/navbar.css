@@ -16,6 +16,7 @@ header{
     max-width: 100dvw;
     height: 15vh;
     background-color: var(--cyberPunk-yellow);
+    min-height: 15vh;
 
 }
 

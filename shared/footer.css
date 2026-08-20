@@ -7,6 +7,15 @@
   --cyberpunk-darkGrey: #2c2c38;
   --cyberpunk-cyan: #15A3C7;
   --cyberpunk-blue: #0313A6;
+  --dark-yellow: rgb(212, 212, 13);
+  --dark-blue: #1d0152;
+  --cyberpunk-pink: #FF2079;
+}
+
+footer{
+  background-color: var(--dark-blue);
+  color: var(--cyberpunk-pink);
+  font-size: x-large;
 }
 
 .hiddenByDefualt{
@@ -17,3 +26,27 @@
 #aboutMeBio{
   display: none;
 }
+
+.faqPromptContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ .aboutUsPrompt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;}
+
+.questionFaqContainter, #aboutUs{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.questionAnsDiv{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+

@@ -13,7 +13,7 @@ let breakfastItemList = [
         itemTitle: "Pixel Waffles",
         itemPrice: 12.99,
         itemDescription: "Fresh stack of waffles.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/pixelWaffles.jpg"
     },
 
     {
@@ -21,7 +21,7 @@ let breakfastItemList = [
         itemTitle: "Cyber Omelet",
         itemPrice: 12.99,
         itemDescription: "Delicious fresh and seasoned omelet.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/cyberOmelet.jpg"
     },
 
     {
@@ -29,7 +29,7 @@ let breakfastItemList = [
         itemTitle: "Neon Breakfast Bowl",
         itemPrice: 12.99,
         itemDescription: "Nutritious bowl of yogurt, fruit, and oats.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/breakfastBowl.jpg"
     },
 
     {
@@ -37,7 +37,7 @@ let breakfastItemList = [
         itemTitle: "Circuit French Toast",
         itemPrice: 12.99,
         itemDescription: "Delicious sticks of french toast.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/circuitFrenchToast.jpg"
     },
 
     {
@@ -85,7 +85,7 @@ let breakfastItemList = [
         itemTitle: "Data Cube Cheesecake",
         itemPrice: 9.99,
         itemDescription: "Delicious slice of cheesecake.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/datacubeCheesecake.jpg"
     },
 
     {
@@ -93,7 +93,7 @@ let breakfastItemList = [
         itemTitle: "Pixel Ice Cream",
         itemPrice: 9.99,
         itemDescription: "Delicious cup of ice cream.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/pixelicecream.png"
     }
 ];
 
@@ -105,7 +105,7 @@ let lunchItemList = [
         itemTitle: "Glitch Burger",
         itemPrice: 12.99,
         itemDescription: "Delicious cheeseburger.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/burger.png"
     },
 
     {
@@ -113,7 +113,7 @@ let lunchItemList = [
         itemTitle: "AI Chicken Sandwich",
         itemPrice: 12.99,
         itemDescription: "Delicious chicken sandwich.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/chickenSandwich.png"
     },
 
     {
@@ -121,7 +121,7 @@ let lunchItemList = [
         itemTitle: "Quantam Wrap",
         itemPrice: 12.99,
         itemDescription: "Delicious chicken wrap.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/quantamWrap.png"
     },
 
     {
@@ -129,7 +129,7 @@ let lunchItemList = [
         itemTitle: "Fusion Ramen Bowl",
         itemPrice: 12.99,
         itemDescription: "Delicious bowl of ramen.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/fusionRamenBowl.png"
     },
 
     {
@@ -137,7 +137,7 @@ let lunchItemList = [
         itemTitle: "Hologram Club Sandwich",
         itemPrice: 12.99,
         itemDescription: "Delicious club sandwich.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/clubsandwhich.png"
     },
 
     {
@@ -145,7 +145,7 @@ let lunchItemList = [
         itemTitle: "Solar Citrus Cooler",
         itemPrice: 9.99,
         itemDescription: "Delicious spicy and sweet citrus beverage.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/citrusCooler.png"
     },
 
     {
@@ -153,7 +153,7 @@ let lunchItemList = [
         itemTitle: "Green Planet Fizz",
         itemPrice: 9.99,
         itemDescription: "Delicious green apple flavored carbonated drink.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/greenPlanetFizz .png"
     },
 
     {
@@ -161,7 +161,7 @@ let lunchItemList = [
         itemTitle: "Cosmic Garden Tea",
         itemPrice: 9.99,
         itemDescription: "Delicious subtly sweet tea.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/cosmicGardenTea .png"
     },
 
     {
@@ -169,7 +169,7 @@ let lunchItemList = [
         itemTitle: "Future Fruit Punch",
         itemPrice: 9.99,
         itemDescription: "Delicious cup of fruit punch.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/futureFruitPunch.png"
     },
 
     {
@@ -177,7 +177,7 @@ let lunchItemList = [
         itemTitle: "Wifi Water",
         itemPrice: 9.99,
         itemDescription: "Nice cold glass of water.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/wifiWater.png"
     },
 
     {
@@ -185,7 +185,7 @@ let lunchItemList = [
         itemTitle: "Quantam Cookie Sundae",
         itemPrice: 9.99,
         itemDescription: "Delicious cookie sundae.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/.png"
     },
 
     {
@@ -409,7 +409,7 @@ let dinnerItemList = [
                 const product = lunchItemList[i];
                 html += `
                     <div class="product-card">
-                        <img class="product-icon" src="${product.imgPath}" alt="drink image">
+                        <img class="product-icon" src="${product.imgPath}" alt="food image">
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
@@ -440,7 +440,7 @@ let dinnerItemList = [
                 const product = drinks[i];
                 html += `
                     <div class="product-card">
-                        <div class="product-icon">${product.imgPath}</div>
+                        <img class="product-icon" src="${product.imgPath}" alt="drink image">
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
@@ -470,7 +470,7 @@ let dinnerItemList = [
                 const product = dessert[i];
                 html += `
                     <div class="product-card">
-                        <div class="product-icon">${product.imgPath}</div>
+                        <img class="product-icon" src="${product.imgPath}" alt="dessert image">
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
@@ -500,7 +500,7 @@ let dinnerItemList = [
                 const product = dinnerItemList[i];
                 html += `
                     <div class="product-card">
-                        <div class="product-icon">${product.imgPath}</div>
+                        <img class="product-icon" src="${product.imgPath}" alt="Food image">
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
@@ -531,7 +531,7 @@ let dinnerItemList = [
                 const product = drinks[i];
                 html += `
                     <div class="product-card">
-                        <div class="product-icon">${product.imgPath}</div>
+                        <img class="product-icon" src="${product.imgPath}" alt="drink image">
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
@@ -562,7 +562,7 @@ let dinnerItemList = [
                 const product = dessert[i];
                 html += `
                     <div class="product-card">
-                        <div class="product-icon">${product.imgPath}</div>
+                        <img class="product-icon" src="${product.imgPath}" alt="dessert image">
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
