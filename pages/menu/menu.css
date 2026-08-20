@@ -27,6 +27,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
 .mainButton {
@@ -34,7 +36,7 @@
     padding: 10px;
     width: fit-content;
     height: fit-content;
-    font-size: 20px;
+    font-size: 50px;
     border-radius: 5px;
     color: #E0FFFF;
     background-color: #15A3C7;
@@ -45,6 +47,7 @@
     justify-content: flex-start;
     display: flex;
     padding: 10px;
+    font-size: 40px;
     color: #E0FFFF;
 }
 
@@ -53,21 +56,23 @@
     justify-content: flex-start;
     display: flex;
     padding: 10px;
+    font-size: 30px;
     color:#E0FFFF;
 }
 
 .menuContainer{
-    border: 1px solid black;
     max-width: 100vw;
-    height: fit-content;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-
 }
 
-#breakfastEntree, #display2, #display3, #breakfastDrink, #breakfastDesserts, #LunchDrink, #LunchDesserts, #dinnerDrink, #dinnerDesserts{
-  
+#breakfastEntree, #breakfastDrink, #breakfastDesserts, #lunchEntree, #LunchDrink, #LunchDesserts, #dinnerEntree, #dinnerDrink, #dinnerDesserts{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 25px;
+    margin: 10px 20px 10px 20px;
+    gap: 25px;
+    background-color: #15A3C7;
+    border-radius: 10px;
 }
 
 .product-card { 
@@ -75,7 +80,12 @@
   padding: 20px; 
   color: var(--cyberpunk-white);
   max-width: 350px; 
-  width: 100%;
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 } 
         
 .product-icon {
@@ -105,13 +115,12 @@
         .product-name {
             font-size: 20px;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         
         .product-description {
             color: #666;
             font-size: 14px;
-            margin-bottom: 15px;
             line-height: 1.5;
         }
         
@@ -121,6 +130,24 @@
             color: #e74c3c;
             justify-content: center;
             display: flex;
+            margin-bottom: 15px;
+            align-items: baseline;
+        }
+
+        .product-button {
+            /* background-color: #29a603; */
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            align-items: baseline;
+        }
+
+
+
+        .product-footer{
+            margin-top: 0.25rem;
+            align-items: flex-end;
+        
         }
 
 /* Footer */

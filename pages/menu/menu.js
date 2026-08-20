@@ -319,7 +319,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -351,7 +351,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -385,7 +385,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -399,7 +399,7 @@ let dinnerItemList = [
 
     function displayLunch(){
 
-        const grid = document.getElementById("display2");
+        const grid = document.getElementById("lunchEntree");
 
         if (!grid) return; 
 
@@ -415,7 +415,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -446,7 +446,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -476,7 +476,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -490,7 +490,7 @@ let dinnerItemList = [
 
     function displayDinner(){
 
-        const grid = document.getElementById("display3");
+        const grid = document.getElementById("dinnerEntree");
 
         if (!grid) return; 
 
@@ -506,7 +506,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
@@ -535,12 +535,11 @@ let dinnerItemList = [
                             <div class="product-catagory">${product.itemTitle}</div>
                             <div class="product-description">${product.itemDescription}</div>
             
-                            <div class="product-footer">
-                        <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
-                </div>
-
-            </div>
+                        <div class="product-footer">
+                            <div class="product-price">${product.itemPrice}</div>
+                            <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        </div>
+                    </div>
         `;
     }
     grid.innerHTML = html;
@@ -569,7 +568,7 @@ let dinnerItemList = [
             
                             <div class="product-footer">
                         <div class="product-price">${product.itemPrice}</div>
-                        <button onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
+                        <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
             </div>
