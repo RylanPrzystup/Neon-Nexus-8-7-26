@@ -23,6 +23,16 @@ footer{
 
 }
 
+#aboutUs{
+  margin-bottom: 1.5rem;
+  font-size: xxx-large;
+}
+
+#FAQheader{
+  color: var(--cyberpunk-white);
+  font-size: xxx-large;
+}
+
 #aboutMeBio{
   display: none;
 }
@@ -45,14 +55,30 @@ footer{
   margin-right: 3rem;
 }
 
-.questionAnsDiv{
+.questionFaqContainter{
+  gap: 0.8rem;
+}
+
+.questionAnsDiv, #aboutMeBio{
   font-size: large;
   font-family: 'Times New Roman', Times, serif;
   color: var(--cyberpunk-white);
 }
 
 #interactiveDiv{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 1rem;
+  gap: 1rem;
 
+}
+
+.dropdownButton{
+  border: none;
+  background-color: transparent;
+  font-size: x-large;
+  color: white;
+}
+
+.dropdownButton:hover{
+  color: var(--cyberpunk-pink);
+  font-size: xx-large;
 }
