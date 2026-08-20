@@ -5,7 +5,7 @@ let breakfastItemList = [
         itemTitle: "Quantam Pancakes",
         itemPrice: 12.99,
         itemDescription: "Fresh stack of pancakes.",
-        imgPath: "/assets/Food/Pancakes.png"
+        imgPath: "/assets/Food/quantamPancakes1.jpg"
     },
 
     {
