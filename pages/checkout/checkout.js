@@ -12,7 +12,7 @@ function updateLeftDisplay() {
           <h3>${item.itemTitle}</h3>
           <p class="description">${item.itemDescription}</p>
           <p class="price">Price: $${(item.itemPrice).toFixed(2)}</p>
-          <button onclick="deleteItem(${index})">Delete</button>
+          <button class="remove" onclick="deleteItem(${index})">Delete</button>
         </div>
         <img src="${item.imgPath}" alt="${item.itemTitle}" width="150px">
       </div>
@@ -20,7 +20,6 @@ function updateLeftDisplay() {
     `;
   }).join("");
 }
-
 
 //updates left displays
 function updateRightDisplay() {
