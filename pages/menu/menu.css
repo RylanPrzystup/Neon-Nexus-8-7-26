@@ -13,15 +13,21 @@
   --dark-blue: #1d0152;
   --cyberpunk-pink: #FF2079;
 }
+    button {
+        border: none;
+    }
 
+    button:hover {
+    background-color: var(--cyberpunk-blue);
+}
 /* Header Section*/
   main {
     background-color: #1d0152;
   }
 
   #mainContainer{
-  height: fit-content;
-  width: 100dw;
+    height: fit-content;
+    width: 100dw;
   }
 
   #mainNavigation{
@@ -44,6 +50,10 @@
     color: #E0FFFF;
     background-color: #15A3C7;
 }
+
+.mainButton:hover {
+    transform: translateY(-5px);
+};
 
 .menuTitle{
     margin-left: 50px;
@@ -127,6 +137,8 @@
             color: #666;
             font-size: 14px;
             line-height: 1.5;
+            min-height: 45px;
+            max-height: 45px;
         }
         
         .product-price {
@@ -147,6 +159,9 @@
             align-items: baseline;
         }
 
+        .product-button:hover {
+            transform: translateY(-5px);
+        }
 
 
         .product-footer{
