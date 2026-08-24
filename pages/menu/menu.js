@@ -592,4 +592,10 @@ function addToCart(product) {
     localStorage.setItem("shoppingCart", JSON.stringify(cart));
 
     console.log("Added to cart:", product);
+
+    let carCount = document.getElementById("cartCount")
+
+    if (cartCount) {
+        cartCount.textContent = cart.length;
+    }
 }
