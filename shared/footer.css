@@ -82,3 +82,13 @@ footer{
   color: var(--cyberpunk-pink);
   font-size: xx-large;
 }
+
+#copyrightFooter{
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--dark-blue);
+}

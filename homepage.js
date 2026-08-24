@@ -34,7 +34,7 @@ let promotionItems = [
     {
         menuType: "bundle",
         itemTitle: "The Neon Duet",
-        itemPrice: 29.50,
+        itemPrice: 29.99,
         itemDescription: "Two cyber steaks, cyber rice plate, two Electric Espresso Martinis and two Galaxy Chocolate Cakes.",
         imgPath: "../../assets/Food/plasmaSteak.jpg"
     }
@@ -68,3 +68,24 @@ function displayPromotions(){
     }
 
 displayPromotions()
+
+function addToCart(product) {
+    let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+
+    cart.push({
+        imgPath: product.imgPath,
+        itemTitle: product.itemTitle,
+        itemDescription: product.itemDescription,
+        itemPrice: product.itemPrice
+    });
+
+    localStorage.setItem("shoppingCart", JSON.stringify(cart));
+
+    console.log("Added to cart:", product);
+
+    let carCount = document.getElementById("cartCount")
+
+    if (cartCount) {
+        cartCount.textContent = cart.length;
+    }
+}
