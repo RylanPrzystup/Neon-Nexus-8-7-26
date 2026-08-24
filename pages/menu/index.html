@@ -19,14 +19,16 @@
                 <ul class="navItemsContainer">
                     <li class="navItems"><a href="../../">Home</a></li>
                     <li class="navItems"><a href="./">Menu</a></li>
-                    <span class="cart-count" id="cartCount">0</span>
+                    <!-- <span class="cart-count" id="cartCount">0</span> -->
                 </ul>
             </div>
 
 
             <div id="rightSideNav">
-
-            <a href="../checkout/"><img src="../../assets/icons/global/shoppingBag.png"></a>
+            <div class="bag-container">
+            <a href="../checkout/"><img class="cartLogo" src="../../assets/icons/global/shoppingBag.png">
+                    <span class="cart-count" id="cartCount">0</span></a>
+            </div>
             <button id="orderNow"><a href="../menu/">Order Now</a></button>   
 
         </nav>

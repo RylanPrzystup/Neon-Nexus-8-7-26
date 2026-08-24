@@ -20,6 +20,11 @@
     button:hover {
     background-color: var(--cyberpunk-blue);
 }
+
+    .bag-container{
+        position: relative;
+        display: inline-block;
+    }
 /* Header Section*/
   main {
     background-color: #1d0152;
@@ -53,7 +58,7 @@
 
 .mainButton:hover {
     transform: translateY(-5px);
-};
+}
 
 .menuTitle{
     margin-left: 50px;
@@ -114,8 +119,8 @@
       
  .cart-count {
     position: absolute;
-    top: 70px;
-    right: 160px;
+    bottom: -8px;
+    right: -8px;
     background: #e74c3c;
     color: #fff;
     width: 25px;
@@ -125,6 +130,10 @@
     align-items: center;
     justify-content: center;
     font-size: 15px;
+}
+.cartLogo{
+    min-width: 20px;
+    max-width: 50px;
 }
 
 .product-badge {
@@ -174,6 +183,11 @@
             align-items: baseline;
         }
 
+        .product-button:hover {
+    
+    transform: translateY(-5px);
+    color: #E0FFFF;
+}
 
 
 .product-footer{

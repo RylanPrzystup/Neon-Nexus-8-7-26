@@ -3,7 +3,7 @@ let breakfastItemList = [
     {
         menuType: "food",
         itemTitle: "Quantam Pancakes",
-        itemPrice: 12.99,
+        itemPrice: 14.99,
         itemDescription: "Fresh stack of pancakes.",
         imgPath: "../../assets/Food/quantamPancakes1.jpg"
     },
@@ -11,7 +11,7 @@ let breakfastItemList = [
     {
         menuType: "food",
         itemTitle: "Pixel Waffles",
-        itemPrice: 12.99,
+        itemPrice: 14.99,
         itemDescription: "Fresh stack of waffles.",
         imgPath: "../../assets/Food/pixelWaffles.jpg"
     },
@@ -27,7 +27,7 @@ let breakfastItemList = [
     {
         menuType: "food",
         itemTitle: "Neon Breakfast Bowl",
-        itemPrice: 12.99,
+        itemPrice: 10.99,
         itemDescription: "Nutritious bowl of yogurt, fruit, and oats.",
         imgPath: "../../assets/Food/breakfastBowl.jpg"
     },
@@ -35,7 +35,7 @@ let breakfastItemList = [
     {
         menuType: "food",
         itemTitle: "Circuit French Toast",
-        itemPrice: 12.99,
+        itemPrice: 10.99,
         itemDescription: "Delicious sticks of french toast.",
         imgPath: "../../assets/Food/circuitFrenchToast.jpg"
     },
@@ -43,7 +43,7 @@ let breakfastItemList = [
     {
         menuType: "drink",
         itemTitle: "Blue Screen Lemonade",
-        itemPrice: 9.99,
+        itemPrice: 7.99,
         itemDescription: "Delicious cup of lemonade.",
         imgPath: "../../assets/Food/bluescreenLemonade.jpg"
     },
@@ -51,7 +51,7 @@ let breakfastItemList = [
     {
         menuType: "drink",
         itemTitle: "RGB Energy Soda",
-        itemPrice: 9.99,
+        itemPrice: 7.99,
         itemDescription: "Delicious cup of energy soda.",
         imgPath: "../../assets/Food/rgbSoda.jpg"
     },
@@ -59,7 +59,7 @@ let breakfastItemList = [
     {
         menuType: "drink",
         itemTitle: "Liquid Lightning",
-        itemPrice: 9.99,
+        itemPrice: 5.99,
         itemDescription: "Delicious carbonated citrus beverage.",
         imgPath: "../../assets/Food/liquidLightning.jpg"
     },
@@ -67,7 +67,7 @@ let breakfastItemList = [
     {
         menuType: "drink",
         itemTitle: "Nano Tea",
-        itemPrice: 9.99,
+        itemPrice: 8.99,
         itemDescription: "Delicious cold tea beverage.",
         imgPath: "../../assets/Food/nanoTea.jpg"
     },
@@ -83,7 +83,7 @@ let breakfastItemList = [
     {
         menuType: "dessert",
         itemTitle: "Data Cube Cheesecake",
-        itemPrice: 9.99,
+        itemPrice: 14.99,
         itemDescription: "Delicious slice of cheesecake.",
         imgPath: "../../assets/Food/datacubeCheesecake.jpg"
     },
@@ -91,7 +91,7 @@ let breakfastItemList = [
     {
         menuType: "dessert",
         itemTitle: "Pixel Ice Cream",
-        itemPrice: 9.99,
+        itemPrice: 4.99,
         itemDescription: "Delicious cup of ice cream.",
         imgPath: "../../assets/Food/pixelicecream.png"
     }
@@ -103,7 +103,7 @@ let lunchItemList = [
     {
         menuType: "food",
         itemTitle: "Glitch Burger",
-        itemPrice: 12.99,
+        itemPrice: 16.99,
         itemDescription: "Delicious cheeseburger.",
         imgPath: "../../assets/Food/burger.png"
     },
@@ -111,7 +111,7 @@ let lunchItemList = [
     {
         menuType: "food",
         itemTitle: "AI Chicken Sandwich",
-        itemPrice: 12.99,
+        itemPrice: 13.99,
         itemDescription: "Delicious chicken sandwich.",
         imgPath: "../../assets/Food/chickenSandwich.png"
     },
@@ -119,7 +119,7 @@ let lunchItemList = [
     {
         menuType: "food",
         itemTitle: "Quantam Wrap",
-        itemPrice: 12.99,
+        itemPrice: 11.99,
         itemDescription: "Delicious chicken wrap.",
         imgPath: "../../assets/Food/quantamWrap.png"
     },
@@ -127,7 +127,7 @@ let lunchItemList = [
     {
         menuType: "food",
         itemTitle: "Fusion Ramen Bowl",
-        itemPrice: 12.99,
+        itemPrice: 17.99,
         itemDescription: "Delicious bowl of ramen.",
         imgPath: "../../assets/Food/fusionRamenBowl.png"
     },
@@ -135,7 +135,7 @@ let lunchItemList = [
     {
         menuType: "food",
         itemTitle: "Hologram Club Sandwich",
-        itemPrice: 12.99,
+        itemPrice: 11.99,
         itemDescription: "Delicious club sandwich.",
         imgPath: "../../assets/Food/clubsandwhich.png"
     },
@@ -151,7 +151,7 @@ let lunchItemList = [
     {
         menuType: "drink",
         itemTitle: "Green Planet Fizz",
-        itemPrice: 9.99,
+        itemPrice: 8.99,
         itemDescription: "Delicious green apple flavored carbonated drink.",
         imgPath: "../../assets/Food/greenPlanetFizz .png"
     },
@@ -159,7 +159,7 @@ let lunchItemList = [
     {
         menuType: "drink",
         itemTitle: "Cosmic Garden Tea",
-        itemPrice: 9.99,
+        itemPrice: 8.99,
         itemDescription: "Delicious subtly sweet tea.",
         imgPath: "../../assets/Food/cosmicGardenTea .png"
     },
@@ -167,7 +167,7 @@ let lunchItemList = [
     {
         menuType: "drink",
         itemTitle: "Future Fruit Punch",
-        itemPrice: 9.99,
+        itemPrice: 5.99,
         itemDescription: "Delicious cup of fruit punch.",
         imgPath: "../../assets/Food/futureFruitPunch.png"
     },
@@ -175,7 +175,7 @@ let lunchItemList = [
     {
         menuType: "drink",
         itemTitle: "Wifi Water",
-        itemPrice: 9.99,
+        itemPrice: 3.99,
         itemDescription: "Nice cold glass of water.",
         imgPath: "../../assets/Food/wifiWater.png"
     },
@@ -183,7 +183,7 @@ let lunchItemList = [
     {
         menuType: "dessert",
         itemTitle: "Quantam Cookie Sundae",
-        itemPrice: 9.99,
+        itemPrice: 6.99,
         itemDescription: "Delicious cookie sundae.",
         imgPath: "../../assets/Food/Quantam Cookie Sundae.jpg"
     },
@@ -203,7 +203,7 @@ let dinnerItemList = [
     {
         menuType: "food",
         itemTitle: "Plasma Steak",
-        itemPrice: 12.99,
+        itemPrice: 19.99,
         itemDescription: "Delicious cut of steak.",
         imgPath: "../../assets/Food/plasmaSteak.jpg"
     },
@@ -211,7 +211,7 @@ let dinnerItemList = [
     {
         menuType: "food",
         itemTitle: "Binary Salmon",
-        itemPrice: 12.99,
+        itemPrice: 14.99,
         itemDescription: "Delicious serving of salmon.",
         imgPath: "../../assets/Food/binarySalmon.jpg"
     },
@@ -219,7 +219,7 @@ let dinnerItemList = [
     {
         menuType: "food",
         itemTitle: "Quantam Noodle Bowl",
-        itemPrice: 12.99,
+        itemPrice: 16.99,
         itemDescription: "Delicious bowl of noodles.",
         imgPath: "../../assets/Food/noodleBowl.jpg"
     },
@@ -227,7 +227,7 @@ let dinnerItemList = [
     {
         menuType: "food",
         itemTitle: "Neon Teriyaki Chicken",
-        itemPrice: 12.99,
+        itemPrice: 14.99,
         itemDescription: "Delicious plate of teriyaki chicken.",
         imgPath: "../../assets/Food/teriyakiChicken.png"
     },
@@ -235,7 +235,7 @@ let dinnerItemList = [
     {
         menuType: "food",
         itemTitle: "Cyber Rice Plate",
-        itemPrice: 12.99,
+        itemPrice: 9.99,
         itemDescription: "Delicious bowl of rice.",
         imgPath: "../../assets/Food/riceBowl.jpg"
     },
@@ -243,7 +243,7 @@ let dinnerItemList = [
     {
         menuType: "drink",
         itemTitle: "Midnight Martini",
-        itemPrice: 9.99,
+        itemPrice: 13.99,
         itemDescription: "Delicious martini drink.",
         imgPath: "../../assets/Food/midnightMartini.jpg"
     },
@@ -259,7 +259,7 @@ let dinnerItemList = [
     {
         menuType: "drink",
         itemTitle: "Starlight Paloma",
-        itemPrice: 9.99,
+        itemPrice: 11.99,
         itemDescription: "Delicious paloma drink.",
         imgPath: "../../assets/Food/paloma.jpg"
     },
@@ -267,7 +267,7 @@ let dinnerItemList = [
     {
         menuType: "drink",
         itemTitle: "Electric Espresso Martini",
-        itemPrice: 9.99,
+        itemPrice: 14.99,
         itemDescription: "Delicious martini drink.",
         imgPath: "../../assets/Food/espressoMartini.jpg"
     },
@@ -275,7 +275,7 @@ let dinnerItemList = [
     {
         menuType: "drink",
         itemTitle: "Nova Margarita",
-        itemPrice: 9.99,
+        itemPrice: 11.99,
         itemDescription: "Nice margarita drink.",
         imgPath: "../../assets/Food/novaMargarita.jpeg"
     },
@@ -283,7 +283,7 @@ let dinnerItemList = [
     {
         menuType: "dessert",
         itemTitle: "Galaxy Chocolate Cake",
-        itemPrice: 9.99,
+        itemPrice: 12.99,
         itemDescription: "Delicious slice of chocolate cake.",
         imgPath: "../../assets/Food/chocolateCake.png"
     },
