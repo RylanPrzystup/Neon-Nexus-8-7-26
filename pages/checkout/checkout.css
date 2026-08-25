@@ -151,12 +151,12 @@ button {
   border: 5px solid #FF2079;
 }
 
-<<<<<<< HEAD
 /* for theme switching change all text to this color */
 
 main.forced-theme * {
   color: var(--cyberpunk-white) !important;
-=======
+}
+
 @media (max-width: 768px){
 
   .container {
@@ -211,5 +211,4 @@ main.forced-theme * {
   .bag {
     font-size: 40px;
   }
->>>>>>> 1318d7c461e56eb1eac54a42f17de44b699ac2c9
 }
