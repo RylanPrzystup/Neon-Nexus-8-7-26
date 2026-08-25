@@ -5,9 +5,9 @@
   --cyberPunk-yellow: #FFD300;
   --cyberpunk-black: #050505;
   --cyberpunk-white: #E0FFFF;
-  --cyberpuk-purple: #7C4DFF;
+  --cyberpuk-purple: #7958d3;
   --cyberpunk-darkGrey: #2c2c38;
-  --cyberpunk-cyan: #15A3C7;
+  --cyberpunk-cyan: #56a1b4;
   --cyberpunk-blue: #0313A6;
   --dark-yellow: rgb(212, 212, 13);
   --dark-blue: #1d0152;
@@ -19,6 +19,7 @@
 
     button:hover {
     background-color: var(--cyberpunk-blue);
+    cursor: pointer;
 }
 
     .bag-container{
@@ -55,11 +56,12 @@
     font-size: 50px;
     border-radius: 5px;
     color: #E0FFFF;
-    background-color: #15A3C7;
+    background-color: #56a1b4;
 }
 
 .mainButton:hover {
     transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .menuTitle{
@@ -68,7 +70,7 @@
     display: flex;
     padding: 10px;
     font-size: 40px;
-    color: #FF2079;
+    color: #ff3988;
 }
 
 .menuSubtitle{
@@ -77,7 +79,7 @@
     display: flex;
     padding: 10px;
     font-size: 30px;
-    color:#FF2079;
+    color:#ff3988;
 }
 
 .menuContainer{
@@ -91,7 +93,7 @@
     padding: 25px;
     margin: 10px 20px 10px 20px;
     gap: 25px;
-    background-color: #7C4DFF;
+    background-color: #b66eba;
     border-radius: 10px;
 }
 
@@ -112,7 +114,7 @@
    display: block;
    margin: 0 auto 15px;
    background: #f9f9f9;
-   border: 5px solid #FF2079;
+   border: 5px solid #ff3988;
    width: 10rem;
    height: 10rem;
    object-fit: cover;
@@ -151,8 +153,8 @@
   margin-bottom: 10px;
 }
         
-.product-category {
-    color: #999;
+.product-catagory {
+    color: #E0FFFF;
     font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -162,6 +164,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
+
 }
         
         .product-description {
@@ -175,7 +178,7 @@
 .product-price {
     font-size: 24px;
     font-weight: bold;
-    color: #e74c3c;
+    color: #ff3988;
     justify-content: center;
     display: flex;
     margin-bottom: 15px;
@@ -183,18 +186,25 @@
 }
 
         .product-button {
-            /* background-color: #29a603; */
+            color: #E0FFFF;
+            background-color: #56a1b4;
             border: none;
             border-radius: 5px;
             padding: 5px;
             align-items: baseline;
+
         }
 
         .product-button:hover {
     
     transform: translateY(-5px);
     color: #E0FFFF;
+    cursor: pointer;
 }
+
+    .product-button:active {
+        width: 90px;
+    }
 
 
 .product-footer{
@@ -202,3 +212,11 @@
     align-items: flex-end;
 }
 /* Footer */
+
+/* media */
+@media(max-width: 650px){
+    #logo{
+        width: 70px;
+        margin-top: 5px;
+    }
+}
