@@ -50,7 +50,19 @@ function deleteItem(index) {
 
     updateLeftDisplay();
     updateRightDisplay();
+    updateCartCount();
 }
+
+function updateCartCount() {
+    let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+    let cartCountElement = document.getElementById("cartCount");
+    if (cartCountElement) {
+        cartCountElement.textContent = cart.length;
+    }
+    
+}
+
+document.addEventListener("DOMContentLoaded", updateCartCount);
 
 
 updateLeftDisplay();

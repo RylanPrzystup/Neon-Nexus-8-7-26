@@ -89,3 +89,13 @@ function addToCart(product) {
         cartCount.textContent = cart.length;
     }
 }
+
+function updateCartCount() {
+    let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+    let cartCountElement = document.getElementById("cartCount");
+    if (cartCountElement) {
+        cartCountElement.textContent = cart.length;
+    }
+}
+
+document.addEventListener("DOMContentLoaded", updateCartCount);
