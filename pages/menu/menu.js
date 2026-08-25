@@ -578,24 +578,28 @@ let dinnerItemList = [
     }
 
     displayDinnerDesserts();
-    
+
 function addToCart(product) {
     let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
-
+    
     cart.push({
         imgPath: product.imgPath,
         itemTitle: product.itemTitle,
         itemDescription: product.itemDescription,
         itemPrice: product.itemPrice
     });
-
+    
     localStorage.setItem("shoppingCart", JSON.stringify(cart));
-
     console.log("Added to cart:", product);
+    updateCartCount(); 
+}
 
-    let carCount = document.getElementById("cartCount")
-
-    if (cartCount) {
-        cartCount.textContent = cart.length;
+function updateCartCount() {
+    let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+    let cartCountElement = document.getElementById("cartCount");
+    if (cartCountElement) {
+        cartCountElement.textContent = cart.length;
     }
 }
+
+document.addEventListener("DOMContentLoaded", updateCartCount);
