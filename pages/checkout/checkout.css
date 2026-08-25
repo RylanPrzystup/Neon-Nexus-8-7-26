@@ -116,3 +116,9 @@ button {
   border-radius: 5px;
   border: 5px solid #FF2079;
 }
+
+/* for theme switching change all text to this color */
+
+main.forced-theme * {
+  color: var(--cyberpunk-white) !important;
+}

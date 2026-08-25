@@ -67,7 +67,12 @@ header, a{
     list-style: none;
     text-decoration: none;
     color: var(--cyberpunk-white);
+    cursor: pointer;
 }
+
+ header,a:active{
+    font-size: 1.2rem;
+ }
 
 a:hover{
     color: var(--cyberpunk-blue);
@@ -83,4 +88,9 @@ a:hover{
 
 #themeSwitchButton:hover{
     color: var(--cyberpunk-blue);
+    cursor: pointer;
+}
+
+#themeSwitchButton:active{
+    font-size: 1.2rem;
 }
