@@ -129,19 +129,21 @@
 
 .remove:hover {
   cursor: pointer;
-  color: rgb(144, 0, 0);
+  color: rgb(223, 2, 2) !important;
 }
 
 .remove:active {
   font-size: 19px;
+  color: rgb(171, 0, 0);
 }
 
 button {
   background-color: rgba(255, 0, 0, 0);
   font-size: 20px;
   border: none;
-  color: red;
 }
+
+
 
 .cart-item img {
   width: 150px;
@@ -155,6 +157,16 @@ button {
 
 main.forced-theme * {
   color: var(--cyberpunk-white) !important;
+}
+
+.removeDuringThemeDark{
+  color: var(--cyberpunk-white);
+}
+
+.removeDuringThemeDark:hover{
+  cursor: pointer;
+  color: var(--cyberpunk-purple);
+
 }
 
 @media (max-width: 768px){

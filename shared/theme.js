@@ -11,9 +11,9 @@ function checkTheme(){
             document.querySelector(".promotionsSection").style.backgroundColor = "white";
             document.querySelector("#promtotionHeader").style.color = "black";}
 
-        else if(document.querySelector(".leftSide")){
-            document.querySelector(".rightSide").style.backgroundColor = "white";
-            document.querySelector(".leftSide").style.backgroundColor = "white";
+        else if(document.querySelector(".rightSide")){
+            document.querySelector("body").style.backgroundColor = "white";/* 
+            document.querySelector(".leftSide").style.backgroundColor = "white"; */
             if(document.querySelector('main').classList.remove('forced-theme')){
             document.querySelector('main').classList.remove('forced-theme');}
             else{}
@@ -27,10 +27,11 @@ function checkTheme(){
         if(document.querySelector(".promotionsSection")){
             document.querySelector(".promotionsSection").style.backgroundColor = "#3a3a49";
             document.querySelector("#promtotionHeader").style.color = "white";
-        }else if(document.querySelector(".leftSide")){
-            document.querySelector(".rightSide").style.backgroundColor = "#3a3a49";
-            document.querySelector(".leftSide").style.backgroundColor = "#3a3a49";
+        }else if(document.querySelector(".rightSide")){
+            document.querySelector("body").style.backgroundColor = "#3a3a49";
             document.querySelector('main').classList.add('forced-theme');
+            document.querySelector(".item-details").classList.add('forced-theme');
+            document.querySelector("")
         }
 
 

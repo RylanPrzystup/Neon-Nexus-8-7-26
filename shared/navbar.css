@@ -94,3 +94,10 @@ a:hover{
 #themeSwitchButton:active{
     font-size: 1.2rem;
 }
+
+@media (max-width: 480px) {
+
+    #homeHref{
+        display: none;
+    }
+}

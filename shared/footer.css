@@ -81,6 +81,7 @@ footer{
 .dropdownButton:hover{
   color: var(--cyberpunk-pink);
   font-size: xx-large;
+  cursor: pointer;
 }
 
 #copyrightFooter{
@@ -91,4 +92,18 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   background-color: var(--dark-blue);
+}
+
+@media (max-width: 480px) {
+
+  #copyrightFooter{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #copyrightFooter, p{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
 }
