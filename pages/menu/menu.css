@@ -17,11 +17,6 @@
         border: none;
     }
 
-    button:hover {
-    background-color: var(--cyberpunk-blue);
-    cursor: pointer;
-}
-
     .bag-container{
         position: relative;
         display: inline-block;
@@ -192,7 +187,8 @@
         }
 
 .product-button:hover {
-    
+    background-color: var(--cyberpunk-blue);
+    cursor: pointer;
     transform: translateY(-5px);
     color: #E0FFFF;
     cursor: pointer;
