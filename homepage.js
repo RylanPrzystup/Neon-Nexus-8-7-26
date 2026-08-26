@@ -20,7 +20,7 @@ let promotionItems = [
         itemTitle: "Breakfast Bash",
         itemPrice: 32.29,
         itemDescription: "Fresh stack of pancakes, pixel waffles, cyber omelet and a RGB Energy Soda ",
-        imgPath: "../../assets/Food/quantamPancakes1.jpg"
+        imgPath: "./assets/Food/quantamPancakes1.jpg"
     },
 
     {
@@ -28,7 +28,7 @@ let promotionItems = [
         itemTitle: "The Stardust Spread",
         itemPrice: 24.99,
         itemDescription: "Four future fruit punches and two Glitch Burgers.",
-        imgPath: "../../assets/Food/burger.png"
+        imgPath: "./assets/Food/burger.png"
     },
 
     {
@@ -36,7 +36,7 @@ let promotionItems = [
         itemTitle: "The Neon Duet",
         itemPrice: 29.99,
         itemDescription: "Two cyber steaks, cyber rice plate, two Electric Espresso Martinis and two Galaxy Chocolate Cakes.",
-        imgPath: "../../assets/Food/plasmaSteak.jpg"
+        imgPath: "./assets/Food/plasmaSteak.jpg"
     }
 ];
 
