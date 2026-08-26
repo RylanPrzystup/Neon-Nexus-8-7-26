@@ -93,7 +93,7 @@ let breakfastItemList = [
         itemTitle: "Pixel Ice Cream",
         itemPrice: 4.99,
         itemDescription: "Delicious cup of ice cream.",
-        imgPath: "../../assets/Food/pixelicecream.png"
+        imgPath: "../../assets/Food/pixelIcecream.png"
     }
 ];
 
