@@ -57,7 +57,7 @@ function displayPromotions(){
                             <div class="product-description">${product.itemDescription}</div>
             
                             <div class="product-footer">
-                        <div class="product-price">${product.itemPrice}</div>
+                        <div class="product-price">$${product.itemPrice}</div>
                         <button class="product-button" onclick='addToCart(${JSON.stringify(product)})'>Add To Cart</button>
                 </div>
 
@@ -71,23 +71,17 @@ displayPromotions()
 
 function addToCart(product) {
     let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
-
+    
     cart.push({
         imgPath: product.imgPath,
         itemTitle: product.itemTitle,
         itemDescription: product.itemDescription,
         itemPrice: product.itemPrice
     });
-
+    
     localStorage.setItem("shoppingCart", JSON.stringify(cart));
-
     console.log("Added to cart:", product);
-
-    let carCount = document.getElementById("cartCount")
-
-    if (cartCount) {
-        cartCount.textContent = cart.length;
-    }
+    updateCartCount(); 
 }
 
 function updateCartCount() {
@@ -95,6 +89,12 @@ function updateCartCount() {
     let cartCountElement = document.getElementById("cartCount");
     if (cartCountElement) {
         cartCountElement.textContent = cart.length;
+    }
+    if (cart.length === 0){
+      cartCountElement.style.display = "none";
+    }
+    else {
+      cartCountElement.style.display = "flex";
     }
 }
 
