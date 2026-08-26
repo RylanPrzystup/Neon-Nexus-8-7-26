@@ -23,7 +23,8 @@
 
 #landingDisplayFood{
   clip-path: polygon(0 0, 58% 0, 48% 100%, 0 100%);
-  flex: 1 1 50%;
+  flex: 0 0 50%;
+  width: 50%;
   min-width: 0;
   max-width: 100%;
   height: auto;
@@ -31,7 +32,8 @@
 }
 
 #headerContainerLanding{
-  flex: 1 1 50%;
+  flex: 0 0 50%;
+  width: 50%;
   min-width: 0;
   padding: 1rem;
   text-align: center;
@@ -188,6 +190,22 @@
   }
   #missionStatement{
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #landingDisplayFood {
+    display: none;
+  }
+  #headerContainerLanding {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  #neon, #nexus {
+    font-size: 12vw;
+  }
+  #missionStatement {
+    font-size: 3.5vw;
   }
 }
 
