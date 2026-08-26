@@ -48,6 +48,8 @@ function deleteItem(index) {
 
     localStorage.setItem("shoppingCart", JSON.stringify(cart));
 
+    console.log("Removed");
+
     updateLeftDisplay();
     updateRightDisplay();
     updateCartCount();
@@ -58,6 +60,12 @@ function updateCartCount() {
     let cartCountElement = document.getElementById("cartCount");
     if (cartCountElement) {
         cartCountElement.textContent = cart.length;
+    }
+    if (cart.length === 0){
+      cartCountElement.style.display = "none";
+    }
+    else {
+      cartCountElement.style.display = "flex";
     }
     
 }
