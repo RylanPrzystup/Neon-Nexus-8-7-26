@@ -73,7 +73,7 @@ function addToCart(product) {
     let cart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
     
     cart.push({
-        imgPath: product.imgPath,
+        imgPath: `../.${product.imgPath}`,
         itemTitle: product.itemTitle,
         itemDescription: product.itemDescription,
         itemPrice: product.itemPrice
