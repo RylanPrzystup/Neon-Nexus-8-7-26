@@ -218,6 +218,15 @@
   }
 }
 
+@media (max-width: 480px) {
+  #neon, #nexus{
+    font-size: 10vw;
+  }
+  #missionStatement{
+    font-size: 4vw;
+  }
+}
+
 html, body {
   overflow-x: hidden;
   max-width: 100%;
