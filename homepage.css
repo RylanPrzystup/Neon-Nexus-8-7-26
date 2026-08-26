@@ -79,6 +79,18 @@
   display: inline-block;
 }
 
+.product-button:active {
+        width: 90px;
+}
+
+.product-button:hover {
+    background-color: var(--cyberpunk-blue);
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: #E0FFFF;
+    cursor: pointer;
+}
+
 .cart-count { 
   position: absolute; 
   bottom: -8px; 

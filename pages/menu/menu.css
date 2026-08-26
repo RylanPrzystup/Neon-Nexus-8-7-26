@@ -191,7 +191,7 @@
 
         }
 
-        .product-button:hover {
+.product-button:hover {
     
     transform: translateY(-5px);
     color: #E0FFFF;
