@@ -15,24 +15,31 @@
 #introDiv{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
   background: radial-gradient(circle, #1d0152, #040f72);
 }
 
 #landingDisplayFood{
   clip-path: polygon(0 0, 58% 0, 48% 100%, 0 100%);
+  flex: 1 1 400px;
+  min-width: 0;
 }
 
 #headerContainerLanding{
-  margin: 0px 0px 0px -30%;
-} 
+  flex: 1 1 400px;
+  min-width: 0;
+  padding: 2rem;
+  text-align: center;
+}
 
 #neon, #nexus{
   color: var(--cyberpunk-white);
   font-family:'Times New Roman', Times, serif;
   text-shadow: 2px 2px 10px var(--cyberpunk-white);
-  font-size: 8rem;
+  font-size: clamp(2.5rem, 6vw, 8rem);
   letter-spacing: 0.1em;
 }
 
@@ -43,7 +50,7 @@
 #missionStatement{
   color: var(--cyberpunk-pink);
   text-shadow: 6px 2px 7px #ff207993;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   letter-spacing: 0.1em;
   text-align: center;
 }
@@ -165,3 +172,20 @@
   margin-left: 2rem;
   padding-top: 1rem;
  }
+
+/* Media quries testing */
+
+@media (max-width: 768px) {
+  #introDiv {
+    flex-direction: column;
+  }
+  #landingDisplayFood {
+    clip-path: none;
+    width: 100%;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
