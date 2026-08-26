@@ -14,7 +14,8 @@
 
 #introDiv{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   width: 100%;
   background: radial-gradient(circle, #1d0152, #040f72);
@@ -22,7 +23,7 @@
 
 #landingDisplayFood{
   clip-path: polygon(0 0, 58% 0, 48% 100%, 0 100%);
-  flex: 1 1 400px;
+  flex: 1 1 50%;
   min-width: 0;
   max-width: 100%;
   height: auto;
@@ -30,9 +31,9 @@
 }
 
 #headerContainerLanding{
-  flex: 1 1 400px;
+  flex: 1 1 50%;
   min-width: 0;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -40,7 +41,7 @@
   color: var(--cyberpunk-white);
   font-family:'Times New Roman', Times, serif;
   text-shadow: 2px 2px 10px var(--cyberpunk-white);
-  font-size: 4vw;
+  font-size: 6vw;
   letter-spacing: 0.1em;
   margin: 0;
   overflow-wrap: break-word;
@@ -53,7 +54,7 @@
 #missionStatement{
   color: var(--cyberpunk-pink);
   text-shadow: 6px 2px 7px #ff207993;
-  font-size: 1.2vw;
+  font-size: 1.8vw;
   letter-spacing: 0.1em;
   text-align: center;
 }
@@ -190,22 +191,12 @@
   }
 }
 
-@media (max-width: 768px) {
-  #introDiv {
-    flex-direction: column;
-  }
-  #landingDisplayFood {
-    clip-path: none;
-    width: 100%;
-  }
+@media (max-width: 600px) {
   #neon, #nexus{
-    font-size: 10vw;
-  }
-  #nexus{
-    margin-left: 0;
+    font-size: 8vw;
   }
   #missionStatement{
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 }
 
